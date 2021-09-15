@@ -1,0 +1,84 @@
+@font-face{
+    font-family:'Lemon';
+    src: url(./Fuente/lemon_milk/LEMONMILK-Medium.otf);
+}
+
+
+
+body{
+    background-image:url(./21-09-01\ fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;  
+}
+.texto{
+    color: snow;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Lemon";
+
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 250px;
+    max-width: 100%;
+}
+
+#boton{
+    background: rgb(147,211,18);
+    font-family: "Lemon";
+    color: seashell;
+}
+#boton:hover{
+    cursor: pointer;
+}
+
+.datos{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+     
+}
+.contenedor-icono{
+    display: flex;
+  }
+
+.icono{
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+ }
+h3{
+    font-family: "lemon";
+    color: seashell;
+    text-align: center;
+}
+
+@media (max-width){
+    form{
+        width: 100%;
+    }
+}

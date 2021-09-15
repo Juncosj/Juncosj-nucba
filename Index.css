@@ -1,0 +1,428 @@
+@font-face{
+    font-family: Lemon;
+    src:url(./Fuente/lemon_milk/LEMONMILK-RegularItalic.otf)
+    }
+
+@font-face{
+        font-family: Lemon regular;
+        src:url(./Fuente/lemon_milk/LEMONMILK-Light.otf)
+}
+@font-face {
+    font-family: amstrong;
+    src: url(./Fuente/amstrong/Armstrong.otf);
+}
+ *{
+    padding: 0;
+     margin: 0;
+}
+
+.header {
+    background-image: url(./21-08-13\ Fondo.png);
+    background-size: cover;
+    flex-wrap: wrap;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    }
+    
+.navbar{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ul-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
+.nav-boton{
+    text-decoration: none;
+    
+}
+.li-nav{
+    font-family: "Lemon";
+    font-size: 1em;
+    color: rgb(147, 211, 18);
+    text-shadow: black; 
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+   
+}
+.info-acrilicos{
+width:100% ;
+}
+
+.texto-logo{
+     margin-top: 3%;
+     margin-left: 8%;
+     width: 50%;
+
+}
+.texto-presentacion{
+    font-family: 'Lemon regular';
+    line-height: 2em;
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.materiales{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+     width: 100%;
+    height: 190vh;
+    background-color: rgb(175, 209, 69);
+}
+.contenedor-materiales{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    justify-content: space-between;   
+}
+.material{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+.h2-materiales{
+    font-family: 'lemon';
+    text-align: center;
+    margin-top: 5%;
+    justify-content: center;
+}
+.texto-materiales{
+    width: 90%;
+    font-family: 'Lemon regular';
+    text-align:left;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 5%;
+    }
+.imagen-materiales{
+    width: 70%;
+    margin-top: 3%;
+}
+.Servicios{
+  flex-wrap: wrap;
+     width: 100%;
+    height: 270vh;
+    background-color: rgb(123, 150, 24);
+    color: white;
+}
+.oferta{
+    padding: 3%;
+   
+    font-family: "lemon regular";
+    text-align: center;
+}
+.contenedor-servicios{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;  
+}
+.taller{
+   display: flex;
+   font-family: "Lemon";  
+   font-size: 1em;
+  
+}
+.manos-taller{
+    width: 50%;
+    height: 65%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.parrafo-servicios{
+    width: 60%;
+    line-height: 1.5em;
+   
+    font-family: "Lemon";  
+    font-size: 1.2em;
+}
+footer{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background: black;
+    color: whitesmoke;
+    width: 100%;
+    height: 50vh;
+}
+.contenedor-footer{
+    display: flex;
+    margin-top: 10%;
+    margin: auto;
+    font-family: "amstrong";
+}
+.logo-juncos{
+    width: 40%;
+}
+.columna1{
+    width: 30%;
+    margin-left: 5%;  
+}
+.fila1{
+    margin-top: 20px;
+    display: flex;
+}
+.img-social{
+    width: 30px;
+    height: auto;
+}
+.logo-ac{
+    width: 20%;
+    height: auto;
+    margin-top: 2%;
+}
+.h3-columnas{
+    font-size: 1em;
+}
+.Label{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.columna2{
+    width: 60%;
+}
+.fila2{
+    margin-top: 20px;
+    display: flex;
+}
+.columna3{
+    width: 50%;
+}
+.login-box{
+    width: 50%;
+    height: auto;
+    margin-top: 0;
+    background: rgb(24, 23, 23);
+    border-radius: 10%;
+    box-sizing: border-box;
+    padding: 3%;
+    text-align: center;        
+}
+.login-img{
+    width: 30%;
+    margin-top: 0;
+    
+}
+.login-text{
+    margin-top: 5%;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+.Label{
+    margin: 0;
+    margin-top: 3%;
+    padding: 0;
+    display: block;
+}
+input{
+    width: 100%;
+    margin-bottom: 8px; 
+    text-align: center;     
+}
+.boton-input{
+    background: rgb(147, 211, 18);
+    font-family:"amstrong";
+    font-size: 1em;
+    
+}
+
+.login-link{
+    text-decoration: none;
+    color: rgb(123, 150, 24);
+   
+}
+.login-link a:hover{
+    color: rgb(191, 247, 81);
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 800px)  { 
+    .header{
+        height: 160vh;
+    } 
+  .materiales{
+      height: 220vh;
+      }
+   .h2-materiales{
+       font-size: 1em;
+   }
+   .Servicios{
+       height: 250vh;
+   }
+   footer{
+       height: 60vh;
+   }
+}  
+@media only screen and (max-width: 799px) and (min-width: 670px){
+    .logo-acrilicos{
+        height: 90%;
+    }
+    .titulo{
+        height: 110vh;
+    }
+    .texto-presentacion{
+        font-size: 0.8em;
+    }
+    .materiales{
+        height:190vh ;
+    }
+    .h2-materiales{
+        font-size: 1em;
+    }
+    .texto-materiales{
+        font-size: 0.8em;
+    }
+    .Servicios{
+        height: 200vh;
+    }
+    .parrafo-servicios{
+        font-size: 1.1em;
+    }
+    footer{
+        height: 70vh;
+    }
+}
+@media only screen and (max-width: 670px) and (min-width: 587px){
+    .logo-acrilicos{
+        height: 80%;
+    }
+    .titulo{
+        height: 90vh;
+    }
+    .texto-presentacion{
+        font-size: 0.8em;
+    }
+    .materiales{
+        height: 170vh;
+    }
+    .h2-materiales{
+        font-size: 0.9em;
+    }
+    .texto-materiales{
+        font-size: 0.7em;
+    }
+    .Servicios{
+        height: 190vh;
+    }
+    .oferta{
+        font-size: 1.2em;
+    }
+    .parrafo-servicios{
+        font-size: 1em;
+    }
+    .contenedor-footer{
+        font-size: 0.8em;
+    }
+    .img-social{
+        width: 10%;
+    }
+    .columna2{
+        width: 60%;
+    }
+    .columna3{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 586px) and (min-width: 400px){
+    .header{
+        height: 100vh;   
+    }
+    .li-nav{
+        font-size: 0.8em;
+    }
+    .logo-acrilicos{
+        height: 70%;
+    }
+    .texto-presentacion{
+        font-size: 0.7em;
+    }
+    .materiales{
+        height: 120vh;
+    }
+    .contenedor-materiales{
+        width: 80%;
+    }
+    .h2-materiales{
+        font-size: 0.5em;
+    }
+    .texto-materiales{
+        font-size: 0.5em;
+    }
+    .Servicios{
+        height: 110vh;
+    }
+    .oferta{
+        font-size: 1em;
+    }
+    .parrafo-servicios{
+        font-size: 0.6em;
+    }
+    .contenedor-footer{
+        font-size: 0.6em;
+    }
+    .login-box{
+        width: 80%;
+    }
+    
+}
+@media only screen and (max-width: 399px) and (min-width: 149px){
+    .header{
+        height: 70vh;   
+    }
+    .li-nav{
+        font-size: 0.4em;
+    }
+    .logo-acrilicos{
+        height: 40%;
+    }
+    .texto-presentacion{
+        font-size: 0.4em;
+    }
+    .materiales{
+        height: 100vh;
+        display: block;
+    }
+    .contenedor-materiales{
+        width: 100%;
+    }
+    .h2-materiales{
+        font-size: 0.5em;
+    }
+    .texto-materiales{
+        font-size: 0.5em;
+    }
+    .Servicios{
+        height: 110vh;
+    }
+    .oferta{
+        font-size: 0.5em;
+    }
+    .parrafo-servicios{
+        font-size: 0.5em;
+    }
+    .contenedor-footer{
+        font-size: 0.6em;
+    }
+    .login-box{
+        width: 80%;
+    }
+       
+}
